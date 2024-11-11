@@ -21,7 +21,7 @@ body {
   text-align: center;
   opacity: 0.8;
   background-color: #000000;
-  z-index: 99;
+  z-index: -1;
 }
 
 p {
@@ -48,7 +48,7 @@ a:hover {
 /* NAVBAR SECTION */
 .navbar-expand-lg {
   background-color: #000000;
-  z-index: 2;
+  z-index: -1;
   height: 74px;
 }
 
@@ -67,7 +67,7 @@ a:hover {
 }
 
 .fixed-top {
-  z-index: 11;
+  z-index: -1;
 }
 
 /* HOME SECTION */
@@ -234,7 +234,7 @@ a:hover {
   padding: 30px;
   background-color: #ffffff;
   position: relative;
-  z-index: 2;
+  z-index: -1;
   margin-bottom: 4rem;
 }
 
@@ -255,7 +255,7 @@ a:hover {
 /* indivdual card styles */ {
   margin-bottom: 0;
   position: relative;
-  z-index: 2;
+  z-index: -1;
   height: 300px;
   width: 100%;
   cursor: pointer;
@@ -273,7 +273,7 @@ a:hover {
   height: 300px;
   width: 100%;
   background-color: rgba(255, 74, 82, 0.8);
-  z-index: 0;
+  z-index: -1;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.3s ease-in-out;
@@ -817,7 +817,7 @@ footer a {
   transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
   opacity: 0;
   visibility: hidden;
-  z-index: 1000;
+  z-index: -1;
 }
 
 /* Scroll To Top Button Hover Over styles */
