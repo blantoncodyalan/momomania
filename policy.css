@@ -6,7 +6,7 @@ body {
   /* *********************************** Navbar Section ********************************************/
   .navbar-expand-lg {
     background-color: #000000;
-    z-index: 2;
+    z-index: -1;
     height: 74px;
   }
   
